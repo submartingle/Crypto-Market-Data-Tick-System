@@ -6,6 +6,11 @@ Personal portfolio project: real-time crypto market-data ingestion + kdb+/q anal
 This repository is a personal portfolio project created independently outside any client work.
 It is shared for review/evaluation only. Please do not copy, redistribute, or use any part of this code in commercial or client deliverables without my written permission.
 
+## How This Was Built
+Built on KX's standard kdb+tick architecture (`tick.q`, `tick/r.q`, `tick/u.q`), extended with a
+crypto schema, the RTE analytics engine and `util.q`. The Python feed handlers were built with the
+help of **Claude Code**.
+
 
 ## What it does
 
